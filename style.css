@@ -1,0 +1,34 @@
+html, body {
+    background-color: antiquewhite;
+    color: plum;
+    font-size: 16px;
+}
+
+a {
+    color: plum;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: powderblue;
+    border: 0.5rem solid rgb(184, 192, 108);
+    margin: 1rem;
+    padding: 1rem;
+    text-align:center;
+}
+
+main {
+    background-color: powderblue;
+    padding: 0.5rem 1.5rem;
+}
