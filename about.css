@@ -13,23 +13,12 @@ a:hover {
     color: #faf5f9;
   }
 
-img{
-    max-width: 100%;
-    height: auto;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-
 header,
 footer {
     margin: 1rem;
     padding: 1rem;
     text-align:center;
+    list-style-type: none;
 }
 
 main {
@@ -40,3 +29,4 @@ main {
     text-align: center;
     
 }
+
