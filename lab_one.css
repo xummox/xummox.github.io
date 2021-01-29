@@ -22,9 +22,9 @@ header {
 }
 
 nav {
-    background-color: rgba(255, 255, 255, 0.295);
-    height:40px;
-    text-align: center;
+    text-align: end;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 main {
@@ -34,11 +34,13 @@ main {
     padding-top: 80px;
     padding-left: 240px;
     padding-right: 240px;
+    margin-bottom: 240px;
 }
 
 footer {
-    background-color: greenyellow ;
-    height:100px;
+    height: 14px;
+    background-color: rgba(255, 255, 255, 0);
+
 }
 
 h1 {
@@ -61,5 +63,8 @@ a {
 }
 
 nav a {
-    
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
