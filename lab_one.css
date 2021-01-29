@@ -1,12 +1,65 @@
-html, body {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-size: 16px;
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #2F3035;
+    background-image: url(image/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
 }
 
 header {
-    margin: 1rem;
-    padding: 1rem;
-    text-align:center;
+    height:118px;
+    text-align: center;
 }
 
+nav {
+    background-color: rgba(255, 255, 255, 0.295);
+    height:40px;
+    text-align: center;
+}
+
+main {
+    height:400px;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    background-color: greenyellow ;
+    height:100px;
+}
+
+h1 {
+    font-size: 25px;
+    color: white;
+    font-family: Futura, Helvetica, sans-serif;
+
+}
+
+p {
+    font-size: 14px;
+    color:white;
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    color: whitesmoke;
+    font-family: Futura;
+    text-decoration: none;
+}
+
+nav a {
+    
+}
