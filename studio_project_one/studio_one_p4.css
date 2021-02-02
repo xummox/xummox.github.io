@@ -30,3 +30,12 @@ footer {
     text-align:center;
     list-style-type: none;
 }
+
+p {
+    color:white;
+}
+
+p:hover {
+    color: black;
+
+}

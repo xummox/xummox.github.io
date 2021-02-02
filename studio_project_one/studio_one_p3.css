@@ -20,7 +20,7 @@ main {
     text-align: center;
 }
 
-
+ 
 footer {
    
     
@@ -29,4 +29,13 @@ footer {
     padding: 2rem;
     text-align:center;
     list-style-type: none;
+}
+
+p {
+    color:white;
+}
+
+p:hover {
+    color: black;
+
 }
