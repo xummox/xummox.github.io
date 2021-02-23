@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,100&display=swap');
+html,
+body {
+    background-image: url(./bk.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 4000px;
+}
+
+.circular-text {
+    position: fixed;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0);
+    font-size: 22px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    transition: 0.5s ease-out;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+#p1 {
+    display: grid;
+    margin-left: 300px;
+    margin-top: 25px;
+    position: fixed;
+    width: 30%;
+    text-align: left;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+}
+
+.p2 {
+   
+    
+}
+
+.right {
+    text-align: right;
+
+}
+
+.left {
+    text-align: left;
+    
+    margin-top: 40px;
+}
