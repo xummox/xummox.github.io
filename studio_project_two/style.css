@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,100&display=swap');
 html,
 body {
-    background-image: url(./bk.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
