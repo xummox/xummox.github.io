@@ -1,1 +1,0 @@
-alert('Hello, welcome to my webpage for Core 2 Interaction :)');

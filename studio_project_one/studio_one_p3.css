@@ -10,7 +10,8 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #faf5f9;
+    color: #e8d4a0;
+    font-size: xx-large;
   }
 main {
     background-color: rgb(250, 250, 250);
@@ -31,11 +32,10 @@ footer {
     list-style-type: none;
 }
 
-p {
-    color:white;
-}
 
-p:hover {
+
+
+p {
     color: black;
 
 }
