@@ -24,7 +24,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background:#515751;
+	background:#83c5be;
 	font-family: 'Julius Sans One', sans-serif;
 }
 
@@ -41,7 +41,7 @@ body {
 	transform: translate(-50%, -50%);
 	width: 800px;
 	height: 800px;
-	border: 1px solid#c2c1a5;
+	border: 1px solid#d9ed92;
 	border-radius: 100%;
 }
 
@@ -52,7 +52,7 @@ body {
 	transform: translate(-50%, -50%);
 	width: 240px;
 	height: 240px;
-	background:#c2c1a5;
+	background:#b5e48c;
 	border-radius: 100%;
 }
 
@@ -63,7 +63,7 @@ body {
 	transform: translate(-50%, -50%);
 	width: 140px;
 	height: 140px;
-	background:#c2c1a5;
+	background:#fdffb6;
 	border-radius: 100%;
 	z-index: 2;
 }
@@ -146,9 +146,9 @@ box {
 	left: 50%;
 	transform: translateX(-50%);
 	font-family: 'Tenor Sans', sans-serif;
-	font-size: 24px;
+	font-size: 30px;
 	line-height: 100px;
-    color: #EEEDE7;
+    color: #ffd166;
 }
 
 .menu-item2 {
@@ -156,9 +156,9 @@ box {
 	left: 90%;
 	transform: translateX(-50%);
 	font-family: 'Tenor Sans', sans-serif;
-	font-size: 37px;
+	font-size: 40px;
 	line-height: 100px;
-    color: #EEEDE7;
+    color: #ef476f;
 }
 
 .menu-item3 {
@@ -167,9 +167,9 @@ box {
 	left: 50%;
 	transform: translateX(-50%);
 	font-family: 'Tenor Sans', sans-serif;
-	font-size: 37px;
+	font-size: 20px;
 	line-height: 100px;
-    color: #EEEDE7;
+    color: #f77f00;
 }
 
 .menu-item4 {
@@ -179,7 +179,7 @@ box {
     left: 80%;
 	transform: translateX(-50%);
 	font-family: 'Tenor Sans', sans-serif;
-	font-size: 54px;
+	font-size: 20px;
     line-height: 200px;
 }
 
@@ -206,7 +206,7 @@ box {
     left: 100%;
 	transform: translateX(-50%);
 	font-family: 'Tenor Sans', sans-serif;
-	font-size: 54px;
+	font-size: 60px;
     line-height: 200px;
 }
 
@@ -216,9 +216,9 @@ box {
 	left: 20%;
 	transform: translateX(-50%);
 	font-family: 'Tenor Sans', sans-serif;
-	font-size: 37px;
+	font-size: 20px;
 	line-height: 100px;
-    color: #EEEDE7;
+    color: #00afb9;
 }
 
 .showreel {
@@ -228,7 +228,7 @@ box {
 	padding: 40px;
 	font-family: "didot";
 	font-size: 24px;
-	color: #EEEDE7;
+	color: #ffafcc;
 }
 
 a {

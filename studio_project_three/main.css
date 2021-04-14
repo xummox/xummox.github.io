@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Tenor+Sans&display=swap');
+
+body {
+    font-family: 'Julius Sans One', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    background:#515751;
+}
+
+h1 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin: 0;
+    color:#f5f9e9;
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: xx-large;
+    padding: 3rem;
+    color:#f5f9e9;
+}
+
+.feel-thoughts {
+    text-align: right;
+}
+
+.feel-container {
+    padding: 1rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.feel-container:hover {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #f9dbbd;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 20px black;
+    }
+}
+
+.feel-image {
+    text-align: right;
+    width: 70%;
+    height: auto;
+    display: none;
+    
+}
+
+.feel-image.active {
+    
+    display: block;
+
+}
+
+.feel-audio {
+    display: none;
+}
+
+.feel-audio.active {
+    display: block;
+}
+
+.circle-shap {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 800px;
+	height: 800px;
+	border: 1px solid#c2c1a5;
+	border-radius: 100%;
+}
+
+.circle-shape-2 {
+	position: absolute;
+	top: 64%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	width: 240px;
+	height: 240px;
+	background:#c2c1a5;
+	border-radius: 100%;
+}
+
+.circle-shape-3 {
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	width: 140px;
+	height: 140px;
+	background:#c2c1a5;
+	border-radius: 100%;
+	z-index: 2;
+}
+
+.house {
+    text-align: right;
+    margin-bottom: 50px;
+}
