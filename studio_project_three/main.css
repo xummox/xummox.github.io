@@ -24,7 +24,10 @@ h2 {
 }
 
 .feel-thoughts {
-    text-align: right;
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-left: auto;
 }
 
 .feel-container {
@@ -32,6 +35,7 @@ h2 {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
+    
 }
 
 .feel-container:hover {
@@ -51,7 +55,7 @@ h2 {
 
 .feel-image {
     text-align: right;
-    width: 70%;
+    width: 30%;
     height: auto;
     display: none;
     
@@ -60,6 +64,8 @@ h2 {
 .feel-image.active {
     
     display: block;
+    border: #c2c1a5 solid thin;
+    border-radius: 5%;
 
 }
 
@@ -75,7 +81,6 @@ h2 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
 	width: 800px;
 	height: 800px;
 	border: 1px solid#c2c1a5;
@@ -86,7 +91,6 @@ h2 {
 	position: absolute;
 	top: 64%;
 	left: 80%;
-	transform: translate(-50%, -50%);
 	width: 240px;
 	height: 240px;
 	background:#c2c1a5;
@@ -97,7 +101,37 @@ h2 {
 	position: absolute;
 	top: 30%;
 	left: 20%;
-	transform: translate(-50%, -50%);
+	width: 140px;
+	height: 140px;
+	background:#c2c1a5;
+	border-radius: 100%;
+	z-index: 2;
+}
+
+.circle-shape-4 {
+	position: absolute;
+	top: 1600px;
+	left: 0%;
+	width: 800px;
+	height: 800px;
+	border: 1px solid#c2c1a5;
+	border-radius: 100%;
+}
+
+.circle-shape-5 {
+	position: absolute;
+	top: 2500px;
+	left: 80%;
+	width: 240px;
+	height: 240px;
+	background:#c2c1a5;
+	border-radius: 100%;
+}
+
+.circle-shape-6 {
+	position: absolute;
+	top:3200px;
+	left: 20%;
 	width: 140px;
 	height: 140px;
 	background:#c2c1a5;

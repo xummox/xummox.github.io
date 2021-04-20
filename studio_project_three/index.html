@@ -10,17 +10,17 @@
 	</head>
 	<body>
 
-		<img id="line" src="./l.PNG" alt=""> 
+		<img id="line" src="./lin.png" alt=""> 
 
 
 		<div class="navbar">
 			<div class="glow">
 					<a href="./home_p2.html">。</a>
 					<div class="fuzzy">fuzzy</div>
-					<div class="calm">calm</div>
+					<div class="calm">bored</div>
 					<div class="bored">bored</div>
-					<div class="calm2">calm2</div>
-					<div class="bored2">bored2</div>
+					<div class="calm2">calm</div>
+					<div class="bored2">calm</div>
 			</div>
 		</div>
 
@@ -40,19 +40,19 @@
 
 		<div class="navbar">
 			<div class="glow">
-					<a href="./home_p2.html">。</a>
-					<div class="fuzzy">fuzzy</div>
-					<div class="calm">calm</div>
-					<div class="bored">bored</div>
-					<div class="calm2">calm2</div>
-					<div class="bored2">bored2</div>
+					<a href="./away_p2.html">。</a>
+					<div class="fuzzy">clean</div>
+					<div class="calm">focus</div>
+					<div class="bored">joyful</div>
+					<div class="calm2">focus</div>
+					<div class="bored2">joyful</div>
 			</div>
 		</div>
 
 		<div class="container">
-			<div class="circle-shape"></div>
-			<div class="circle-shape-2"></div>
-			<div class="circle-shape-3"></div>
+			<div class="circle-shape-4"></div>
+			<div class="circle-shape-5"></div>
+			<div class="circle-shape-6"></div>
 			<div class="blocks">
 				<div class="block-1 block">A</div>
 				<div class="block-2 block">W</div>
@@ -114,17 +114,27 @@
 				ease: Expo.easeInOut,
 			});
 
-			TweenMax.from("#line", 2, {
+			TweenMax.from(".circle-shape-4", 2.4, {
 				scale: "0",
 				ease: Expo.easeInOut,
 			});
+			TweenMax.from(".circle-shape-5", 2.4, {
+				scale: "0",
+				ease: Expo.easeInOut,
+			});
+			TweenMax.from(".circle-shape-6", 2.4, {
+				scale: "0",
+				ease: Expo.easeInOut,
+			});
+
+			
 			TweenMax.from(".navbar > div", 1.6, {
 				opacity: 0,
 				y: 60,
 				ease: Expo.easeInOut,
 				delay: 0.6,
 			});
-			TweenMax.from(".site-logo", 1.6, {
+			TweenMax.from("#line", 1.6, {
 				opacity: 0,
 				y: 40,
 				ease: Expo.easeInOut,

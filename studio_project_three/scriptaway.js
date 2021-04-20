@@ -6,7 +6,7 @@ var Airtable = require("airtable");
 
 // use airtable library, connect to our base using API key
 var base = new Airtable({ apiKey: "keyZ1peaK6cK14vts" }).base(
-    "appU01pU3VmM9o0oE"
+    "appiLitK7z1YYI9yf"
   );
 
 // get our collection base, select all the records
