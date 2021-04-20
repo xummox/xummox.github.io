@@ -70,11 +70,11 @@ h2 {
 }
 
 .feel-audio {
-    display: none;
+    display: block;
 }
 
 .feel-audio.active {
-    display: block;
+   
 }
 
 .circle-shape {
