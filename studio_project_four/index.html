@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breathing Space</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="circletype.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+   
+</head>
+<body>
+
+    <div class="circular-text">
+        <span id="rotated">
+             /
+        </span>
+
+        <span id="rotated2">
+            /
+       </span>
+
+       <span id="rotated3">
+        /
+   </span>
+    </div>
+
+
+    <div class="circular-text2">
+        <span class="rotated">
+             /｜
+        </span>
+
+        <span class="rotated2">
+            /
+       </span>
+/
+       <span class="rotated3">
+        
+   </span>
+    </div>
+
+    
+   
+    <div class="second">Bring your awareness to whatever is going on for you right now.</div>
+
+    <div class="three">Give the weight of your body up to gravity. What sensations are there right now?</div>
+
+    <div class="four"> If you notice any resistance towards unpleasant sensations, gently turn towards them.</div>
+
+    <div class="five">Accept them as best you can.</div>
+
+    <div class="six">If you begin to tense around the breath,
+        then let go a little bit more with each outbreath. Soften into gravity.</div>
+
+   
+
+    
+
+
+
+    <div class="percent">
+        <div class="relief">stress relief</div>
+        <div class="fill"></div>
+        <div class="counter"><h1></h1></div>
+    </div>
+    <div class="home">
+        <div class="container">
+            <div class="home-text">
+                <div class="name">BreathingSpace</div>
+            </div>
+        </div>
+    </div>
+
+
+  
+
+   
+
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+
+
+<script>
+
+    $(document).ready(function(){
+        $(".name, .second,.three,.four,.five,.six").lettering();
+
+       // name
+        anime({
+            targets: '.name span',
+            opacity: 1,
+            duration: 1500,
+            easing: 'easeInSine',
+            delay: anime.stagger(100, {start: 500})
+        })
+
+        anime({
+            targets: '.second span',
+            opacity: 1,
+            duration: 2000,
+            easing: 'easeInSine',
+            delay: anime.stagger(50, {start: 3800})
+        })
+
+        anime({
+            targets: '.three span',
+            opacity: 1,
+            duration: 2000,
+            easing: 'easeInSine',
+            delay: anime.stagger(80, {start: 8000})
+        })
+
+        anime({
+            targets: '.four span',
+            opacity: 1,
+            duration: 2000,
+            easing: 'easeInSine',
+            delay: anime.stagger(50, {start: 15000})
+        })
+
+        anime({
+            targets: '.five span',
+            opacity: 1,
+            duration: 2000,
+            easing: 'easeInSine',
+            delay: anime.stagger(50, {start: 20000})
+        })
+
+        anime({
+            targets: '.six span',
+            opacity: 1,
+            duration: 4000,
+            easing: 'easeInSine',
+            delay: anime.stagger(50, {start: 22000})
+        })
+    });
+
+    function progress() {
+                var windowScrollLeft = $(window).scrollLeft();
+                var docWidth = $(document).width();
+                var windowWidth = $(window).width();
+                var progress = (windowScrollLeft / (docWidth - windowWidth)) * 100;
+length
+                var $bgColor = progress > 99 ? "#fff" : "#fff";
+                var $textColor = progress > 99 ? "#fff" : "#fff";
+
+                $("h1")
+                    .text(Math.round(progress) + "%")
+                    .css({ color: $textColor });
+
+                $(".fill")
+                    .width(progress + "%")
+                    .css({ backgroundColor: $bgColor });
+            }
+            progress();
+            $(document).on("scroll", progress);
+
+   
+ 
+            const circleType = new CircleType(
+            document.getElementById("rotated")
+       ).radius(80);
+
+        $(window).scroll(function () {
+           var  offset = $(window).scrollLeft();
+           offset =  offset * 0.4;
+
+           $(".circular-text, .circular-text2, .circular-text3, .circular-text4, .circular-text5, .circular-text6, .circular-text").css({
+                "-moz-transform": "rotate(" + offset + "deg)",
+                "-webkit-transform": "rotate(" + offset +  "deg)",
+               "-o-transform": "rotate(" +  offset + "deg)",
+               "-ms-transform":  "rotate(" + offset + "deg)",
+               transform:  "rotate(" + offset + "deg)"
+           });
+       });
+
+
+
+       
+
+           
+
+</script>
+</body>
+</html>

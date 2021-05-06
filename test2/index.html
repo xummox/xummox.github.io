@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<div class="customCard"></div>
+<div class="customCard"></div>
+<div class="customCard">What sensations are there right now? If you notice any resistance towards unpleasant sensations, gently turn towards them.</div>
+</div>
+<div class="customCard"></div>
+<div class="customCard"></div>
+<div class="customCard"></div>
+<div class="customCard"></div>
+<div class="customCard"></div>
+<div class="customCard"></div>
+<div class="customCard"></div>
+<div class="customCard"></div>
+<div class="customCard"></div>
+<div class="customCard"></div>
+<div class="customCard"></div>
+<div class="customCard"></div>
+<div class="customCard"></div>
+<div class="customCard">Bring your awareness to whatever is going on for you right now.</div>
+<div class="customCard">Give the weight of your body up to gravity.</div>
+<div class="customCard"></div>
+<div class="customCard"></div>
+    
+
+    <script>
+        (function () {
+  'use strict';
+  $(function () {
+  
+    // this function check if an element is
+    // right in window view screen
+    function isVisible(el) {
+      var $el = $(el),
+        above = $el.offset().left - $(window).scrollLeft() + $el.outerWidth() < 0,
+        below = $el.offset().left > $(window).outerWidth() + $(window).scrollLeft();
+      return !above && !below;
+    }
+
+    // this function load your elements by
+    // checking the class they have
+    // (in this example it is .is-showing) 
+    //
+    // Note: 
+    //   you can specify an animation in
+    //   .is-showing css class
+    function loadCards() {
+      $('.customCard:not(.is-showing)').each(function(i) {
+        var card = $(this);
+    
+        if (isVisible(card) && !card.hasClass('is-showing')) {
+          // the number used in timeout is
+          // for load elements with a little
+          // delay after each other
+          setTimeout(function() {
+            card.addClass('is-showing');
+          }, 150 * (i + 1));
+        }
+      });
+    }
+
+    // this function is for listening to
+    // window's scroll event and call
+    // loadCards() function each time
+    // to check visible elements and 
+    // show them
+    $(window).on('scroll', function() {
+      loadCards();
+    });
+
+    // you should call this function 
+    // after page load
+    loadCards();
+  });
+})(jQuery);
+
+    </script>
+</body>
+</html>

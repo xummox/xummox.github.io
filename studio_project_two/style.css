@@ -24,7 +24,7 @@ body {
 }
 
 #p1 {
-    display: grid;
+    display: grid; 
     margin-left: 300px;
     margin-top: 25px;
     position: fixed;
